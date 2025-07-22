@@ -325,7 +325,10 @@ export default function App() {
     };
 
     return (
-        <div className="min-h-screen bg-gray-50 text-gray-800 flex items-center justify-center font-sans p-4">
+        <div 
+            className="min-h-screen bg-gray-50 text-gray-800 flex items-center justify-center font-sans p-4" 
+            style={{ border: '5px solid red' }}
+        >
             <div className="w-full max-w-5xl mx-auto">
                 <div className="flex justify-center mb-8">
                     <img 
